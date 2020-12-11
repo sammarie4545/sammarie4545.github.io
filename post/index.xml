@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Samantha Snyder</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Samantha Snyder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding Skills</title>
+      <link>/post/2020/12/11/coding-skills/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/11/coding-skills/</guid>
+      <description>Link to Project 1
+Link to google
+ This is a ggplot in r that is animated to show how GDP per capita vs life expectancy changes from the years 1954-2007.
+library(ggplot2) library(gapminder) library(gganimate) library(gifski) library(reticulate) ## standard ggplot2 myPlot &amp;lt;- ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, colour = country)) + geom_point(alpha = 0.7, show.legend = FALSE) + scale_colour_manual(values = country_colors) + scale_size(range = c(2, 12)) + scale_x_log10() + # Here comes the gganimate specific bits labs(title = &amp;#39;Year: {frame_time}&amp;#39;, x = &amp;#39;GDP per capita&amp;#39;, y = &amp;#39;life expectancy&amp;#39;) + transition_time(year) + ease_aes(&amp;#39;linear&amp;#39;) animate(myPlot, duration = 5, fps = 20, width = 200, height = 200, renderer = gifski_renderer()) anim_save(&amp;quot;output.</description>
+    </item>
+    
+  </channel>
+</rss>

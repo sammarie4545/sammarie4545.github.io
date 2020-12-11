@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Samantha Snyder</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Samantha Snyder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 1</title>
+      <link>/project/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>Samantha Snyder sms7265 Introduction I chose the datasets VA and lung. VA is a veteran&#39;s administration lung cancer trial and lung is a NCCTG lung cancer dataset. The VA dataset contains survival time/stime (days), status (0=dead, 1=censored), treatment/treat (1=standard, 2=test), age (years), Karnofsky score/Karn (0-100), diagnosis time/diag.time (months), cell type/cell (4), and prior therapy/prior. The lung dataset contains institution code/inst, survival time/time (days), status (1=censored, 2=dead), age (years), sex (1=male, 2=female), physician ECOG performance score/ph.</description>
+    </item>
+    
+    <item>
+      <title>Project 2</title>
+      <link>/project/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project2/</guid>
+      <description>Samantha Snyder sms7265 Introduction My dataset is called BirdNest and contains variables that measure species and nest characteristics for North American passerines (perching birds). There are 84 observations including 12 variables. Species denotes the Latin species name, Common is the common species name, Length is the mean body length for each species in cm, Nesttype is the type of nest (various factors), Location is the location of the nest by region, No.</description>
+    </item>
+    
+  </channel>
+</rss>
